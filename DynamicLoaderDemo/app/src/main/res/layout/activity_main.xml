@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cxmscb.cxm.dynamicloaderdemo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="#56ee66"
+        android:textSize="19sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:text="更多工具" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/red"
+            android:text="红包助手"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:padding="12dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:onClick="loadRedPaper"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:text="添加并运行"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
