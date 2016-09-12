@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="#56ee66"
+        android:textSize="19sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:text="抢红包" />
+
+    <Button
+        android:id="@+id/start"
+        android:textSize="19sp"
+        android:background="#ee2e14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="开启红包助手 >"/>
+
+
+
+
+
+</RelativeLayout>
